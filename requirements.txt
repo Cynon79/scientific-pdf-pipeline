@@ -1,0 +1,3 @@
+# Run in the parser environment or an isolated postprocessing environment.
+PyMuPDF==1.26.4
+fonttools==4.64.0

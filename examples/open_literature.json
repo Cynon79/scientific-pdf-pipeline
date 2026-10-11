@@ -1,0 +1,54 @@
+{
+  "purpose": "Rights-cleared literature metadata; no downloaded paper, figure, dataset, or original research output is bundled.",
+  "records": [
+    {
+      "id": "oa-aqueous-2018",
+      "title": "Heterogeneous catalytic ozonation of ciprofloxacin in aqueous solution using a manganese-modified silicate ore",
+      "authors": [
+        "Lisha Luo",
+        "Donglei Zou",
+        "Dongwei Lu",
+        "Bingjing Xin",
+        "Ming Zhou",
+        "Xuedong Zhai",
+        "Jun Ma"
+      ],
+      "doi": "10.1039/C8RA06880A",
+      "year": 2018,
+      "publisher_url": "https://pubs.rsc.org/en/content/articlelanding/2018/ra/c8ra06880a",
+      "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2018/ra/c8ra06880a",
+      "license": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_checked": "2026-10-11",
+      "phase": "aqueous",
+      "summary": "The authors studied ciprofloxacin ozonation in water using manganese-modified silicate ore. Their scavenger experiments were interpreted as evidence for hydroxyl-radical involvement.",
+      "summary_kind": "Attributed paraphrase for software demonstration, not a verbatim extract or independently validated mechanism."
+    },
+    {
+      "id": "oa-gas-2023",
+      "title": "Catalytic ozonation mechanism over M1-N3C1 active sites",
+      "authors": [
+        "Dingren Ma",
+        "Qiyu Lian",
+        "Yexing Zhang",
+        "Yajing Huang",
+        "Xinyi Guan",
+        "Qiwen Liang",
+        "Chun He",
+        "Dehua Xia",
+        "Shengwei Liu",
+        "Jiaguo Yu"
+      ],
+      "doi": "10.1038/s41467-023-42853-8",
+      "year": 2023,
+      "publisher_url": "https://www.nature.com/articles/s41467-023-42853-8",
+      "pdf_url": "https://www.nature.com/articles/s41467-023-42853-8.pdf",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_checked": "2026-10-11",
+      "phase": "gas",
+      "summary": "The authors investigated single-atom sites for ozone and methyl mercaptan removal from air. This gas-phase study is not direct evidence for aqueous catalytic ozonation.",
+      "summary_kind": "Attributed paraphrase for software demonstration, not a verbatim extract or independently validated mechanism."
+    }
+  ]
+}

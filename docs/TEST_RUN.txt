@@ -1,0 +1,61 @@
+{"python": "3.10.18 (main, Jun  5 2025, 08:13:51) [Clang 14.0.6 ]", "dependencies": {"PyMuPDF": "1.26.4", "fonttools": "4.64.0"}}
+test_flags_and_ambiguous_continuation_are_visible (test_asset_quality.Quality) ... ok
+test_formula_without_caption_is_not_missing_caption (test_asset_quality.Quality) ... ok
+test_inside_unused_region_not_reported_as_excluded (test_asset_quality.Quality) ... ok
+test_complete_caption_and_body_font_not_merged (test_caption_boundaries.BoundaryTests) ... ok
+test_explicit_label_survives_font_change (test_caption_boundaries.BoundaryTests) ... ok
+test_incomplete_caption_survives_font_change_for_review (test_caption_boundaries.BoundaryTests) ... ok
+test_only_label_inside_figure_is_excluded (test_caption_boundaries.BoundaryTests) ... ok
+test_ambiguous_two_titles_not_chosen (test_caption_fragments.Fragments) ... ok
+test_different_owner_or_noncontained_box_not_absorbed (test_caption_fragments.Fragments) ... ok
+test_label_and_title_keep_long_caption_and_source (test_caption_fragments.Fragments) ... ok
+test_formal_caption_band_and_other_owner_not_reclassified (test_caption_roles.Roles) ... ok
+test_internal_annotation_has_parent (test_caption_roles.Roles) ... ok
+test_labeled_or_ambiguous_not_reclassified (test_caption_roles.Roles) ... ok
+test_long_text_inside_badly_oversized_figure_stays_caption (test_caption_roles.Roles) ... ok
+test_explicit_continuation_shares_caption_without_stitching (test_continued_assets.Continued) ... ok
+test_missing_first_part_is_not_complete (test_continued_assets.Continued) ... ok
+test_repeated_number_without_evidence_requires_review (test_continued_assets.Continued) ... ok
+test_distant_caption_and_large_paragraph_stay_excluded (test_figure_regions.FigureRegionTests) ... ok
+test_expansion_does_not_recursively_absorb_neighbor (test_figure_regions.FigureRegionTests) ... ok
+test_panel_label_crossing_crop_boundary_is_whole (test_figure_regions.FigureRegionTests) ... ok
+test_title_touching_render_padding_is_preserved (test_figure_regions.FigureRegionTests) ... ok
+test_conflict_checks_all_before_any_write (test_import_parse_outputs.ImportTests) ... ok
+test_pdf_traversal_duplicate_and_bad_checksum_rejected (test_import_parse_outputs.ImportTests) ... ok
+test_verified_import_and_resume (test_import_parse_outputs.ImportTests) ... ok
+test_changed_historical_md_rejected_on_import (test_platform.PortablePlatformTests) ... ok
+test_dangling_relation_rejected_even_with_valid_hash (test_platform.PortablePlatformTests) ... ok
+test_existing_output_never_overwritten (test_platform.PortablePlatformTests) ... ok
+test_identical_pdf_aliases_deduplicate (test_platform.PortablePlatformTests) ... ok
+test_invalid_input_leaves_no_final_bundle (test_platform.PortablePlatformTests) ... ok
+test_missing_image_detected (test_platform.PortablePlatformTests) ... ok
+test_out_of_page_figure_rejected (test_platform.PortablePlatformTests) ... ok
+test_path_escape_and_symlink_rejected (test_platform.PortablePlatformTests) ... ok
+test_plan_changes_with_config_and_never_runs (test_platform.PortablePlatformTests) ... ok
+test_preparation_cannot_claim_scientific_readiness (test_platform.PortablePlatformTests) ... ok
+test_relocation_works_without_original_paths (test_platform.PortablePlatformTests) ... ok
+test_same_filename_different_content_not_deduplicated (test_platform.PortablePlatformTests) ... ok
+test_tampered_input_detected (test_platform.PortablePlatformTests) ... ok
+test_wrong_source_line_rejected_even_with_valid_hash (test_platform.PortablePlatformTests) ... ok
+test_unmapped_character_is_not_silently_accepted (test_preservation_exports.PreservationTests) ... ok
+test_unverified_transcription_not_searchable_and_cross_page_caption_preserved (test_preservation_exports.PreservationTests) ... ok
+test_existing_destination_never_overwritten (test_source_crop_cache.Cache) ... ok
+test_same_box_reused_other_box_rendered (test_source_crop_cache.Cache) ... ok
+test_source_or_corrupted_image_rejected (test_source_crop_cache.Cache) ... ok
+test_does_not_rewrite_valid_but_different_text (test_text_repairs.Repairs) ... ok
+test_html_and_subscript_positions_remain_original (test_text_repairs.Repairs) ... ok
+test_preserves_scripts_and_changes_only_missing_symbol (test_text_repairs.Repairs) ... ok
+test_rejects_unrelated_ocr (test_text_repairs.Repairs) ... ok
+test_requires_bilateral_matching_context (test_text_repairs.Repairs) ... ok
+test_chemical_front_text_preserved (test_clean_preserved_md.CleaningSafety) ... ok
+test_interleaved_conclusion_is_kept (test_clean_preserved_md.CleaningSafety) ... ok
+test_methods_after_references_preserved (test_clean_preserved_md.CleaningSafety) ... ok
+test_numbered_data_availability_is_scientific (test_clean_preserved_md.CleaningSafety) ... ok
+test_references_only_exact_heading (test_clean_preserved_md.CleaningSafety) ... ok
+test_supplement_badge_does_not_remove_abstract (test_clean_preserved_md.CleaningSafety) ... ok
+
+----------------------------------------------------------------------
+Ran 54 tests in 0.397s
+
+OK
+{"testsRun": 54, "failures": 0, "errors": 0, "skipped": 0}

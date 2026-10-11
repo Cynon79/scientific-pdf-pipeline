@@ -1,0 +1,357 @@
+{
+  "source_version": "native-assets-v0.11-boundary-annotations",
+  "files": [
+    {
+      "source_relative": "portable/asset_quality.py",
+      "snapshot_relative": "portable/asset_quality.py",
+      "source_sha256": "66781eeca1754c7073e8b4778a908243cedb853b63482be0eafdc495230f696d",
+      "snapshot_sha256": "66781eeca1754c7073e8b4778a908243cedb853b63482be0eafdc495230f696d",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/audit_collection_quality.py",
+      "snapshot_relative": "portable/audit_collection_quality.py",
+      "source_sha256": "e0380152e1e60346992d00a3224771cde1d1ca1cb12620356479df7f24003fda",
+      "snapshot_sha256": "e0380152e1e60346992d00a3224771cde1d1ca1cb12620356479df7f24003fda",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/audit_large_figures.py",
+      "snapshot_relative": "portable/audit_large_figures.py",
+      "source_sha256": "a1c8556cec76df2506f7c7b2fdc1f9d40a52edf442394c1cdd3610b64dfe55df",
+      "snapshot_sha256": "8aa8393d1460f619c1b682a41ee18a3eaba4bb7fb1591fd349a63d9d18cdbed6",
+      "packaging_changes": [
+        "Remove development-only dependency search path"
+      ]
+    },
+    {
+      "source_relative": "portable/audit_native_coverage.py",
+      "snapshot_relative": "portable/audit_native_coverage.py",
+      "source_sha256": "f86bc68ae15f17e2b03e850b68219b04535bc87fb650b800d15d74bbe89c9507",
+      "snapshot_sha256": "f98af0e4f44f14b517c81a9358fc23be4d985a85792e55fdff6e6eb30fd18f35",
+      "packaging_changes": [
+        "Remove development-only dependency search path"
+      ]
+    },
+    {
+      "source_relative": "portable/build_native_assets.py",
+      "snapshot_relative": "portable/build_native_assets.py",
+      "source_sha256": "6b0756417a245d6273e522e1b19372f567459cd8fd591d60616f1a25731b46ab",
+      "snapshot_sha256": "4feb997472b79b2a57495601379741f528e9d91d769bfa2804f301a6c1256d27",
+      "packaging_changes": [
+        "Remove development-only dependency search path",
+        "Unset deployment-specific remote PDF locator; no remote source is bundled"
+      ]
+    },
+    {
+      "source_relative": "portable/build_role_search.py",
+      "snapshot_relative": "portable/build_role_search.py",
+      "source_sha256": "193e92032d30e4f50a4c53a5c80652a7add049d81f0f644a475ac5438e1ea5ea",
+      "snapshot_sha256": "193e92032d30e4f50a4c53a5c80652a7add049d81f0f644a475ac5438e1ea5ea",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/caption_fragments.py",
+      "snapshot_relative": "portable/caption_fragments.py",
+      "source_sha256": "df42c099fb4e728bec17383142f13416e094fd94372b4548474cd325a2a076ac",
+      "snapshot_sha256": "df42c099fb4e728bec17383142f13416e094fd94372b4548474cd325a2a076ac",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/caption_links.py",
+      "snapshot_relative": "portable/caption_links.py",
+      "source_sha256": "ffe20c90cb3330c90257e302e1e1b06cf1867166f65da9306d38474e1a1f7273",
+      "snapshot_sha256": "ffe20c90cb3330c90257e302e1e1b06cf1867166f65da9306d38474e1a1f7273",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/caption_roles.py",
+      "snapshot_relative": "portable/caption_roles.py",
+      "source_sha256": "cb7c2a545619d492b6b5fb7a4a644aa46dfc8bb192e47833e22309fe0dd56e8c",
+      "snapshot_sha256": "cb7c2a545619d492b6b5fb7a4a644aa46dfc8bb192e47833e22309fe0dd56e8c",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/clean_preserved_md.py",
+      "snapshot_relative": "portable/clean_preserved_md.py",
+      "source_sha256": "af9a38703ee41a95ffe1dbfd491406a6767c5cf8eab2d2996613bd19c872431b",
+      "snapshot_sha256": "8b73ec1f68a351a0aaba2e7f885713ba62234c1b4c295d5524b4b60434427164",
+      "packaging_changes": [
+        "Resolve archived source-local cleaner beside this module"
+      ]
+    },
+    {
+      "source_relative": "portable/collect_parse_outputs.py",
+      "snapshot_relative": "portable/collect_parse_outputs.py",
+      "source_sha256": "3037e890fb77da053404ee9fa8cb42305db680f407fe90873b83f5f54ae0ce24",
+      "snapshot_sha256": "3037e890fb77da053404ee9fa8cb42305db680f407fe90873b83f5f54ae0ce24",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/consumer_exports.py",
+      "snapshot_relative": "portable/consumer_exports.py",
+      "source_sha256": "2ec6e7482d4daa1529a278f94e7ca22cd6c9f95b255048ea40dbeb57ac9d8bce",
+      "snapshot_sha256": "2ec6e7482d4daa1529a278f94e7ca22cd6c9f95b255048ea40dbeb57ac9d8bce",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/continued_assets.py",
+      "snapshot_relative": "portable/continued_assets.py",
+      "source_sha256": "d8fbeb93e122c08a28f6484806e4cf5226b539d713c1022504d70ccd81c1af6f",
+      "snapshot_sha256": "d8fbeb93e122c08a28f6484806e4cf5226b539d713c1022504d70ccd81c1af6f",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/figure_regions.py",
+      "snapshot_relative": "portable/figure_regions.py",
+      "source_sha256": "adcf297f014fdfb33b2eaac6eb39dc18b27c90160176ef34de374c63d3fab9c8",
+      "snapshot_sha256": "adcf297f014fdfb33b2eaac6eb39dc18b27c90160176ef34de374c63d3fab9c8",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/glyph_library.py",
+      "snapshot_relative": "portable/glyph_library.py",
+      "source_sha256": "6e21de9b7fd180e399f0b4f2110c690ad65ce2a54b0e58b3f0f5260ec551b76f",
+      "snapshot_sha256": "6e21de9b7fd180e399f0b4f2110c690ad65ce2a54b0e58b3f0f5260ec551b76f",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/glyph_repairs.py",
+      "snapshot_relative": "portable/glyph_repairs.py",
+      "source_sha256": "71c746a3cb49ce8e2836ce4987d2eecdf6b1e445e41b51a65f97d9731ace5079",
+      "snapshot_sha256": "71c746a3cb49ce8e2836ce4987d2eecdf6b1e445e41b51a65f97d9731ace5079",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/import_parse_outputs.py",
+      "snapshot_relative": "portable/import_parse_outputs.py",
+      "source_sha256": "cbdd6c94a460b238809de038c6f75fd575a5819412497d54c71857aff1e8a63c",
+      "snapshot_sha256": "cbdd6c94a460b238809de038c6f75fd575a5819412497d54c71857aff1e8a63c",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/native_text.py",
+      "snapshot_relative": "portable/native_text.py",
+      "source_sha256": "3fc23c1d3073cd8bc593c5878788b5860b4f5af6b510ca2ec572002a1a6b8131",
+      "snapshot_sha256": "3fc23c1d3073cd8bc593c5878788b5860b4f5af6b510ca2ec572002a1a6b8131",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/page_geometry.py",
+      "snapshot_relative": "portable/page_geometry.py",
+      "source_sha256": "75c74112d5163a30017cea945730b4a169ad96e13ea33fce5676266e2b1345f8",
+      "snapshot_sha256": "75c74112d5163a30017cea945730b4a169ad96e13ea33fce5676266e2b1345f8",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/platform_cli.py",
+      "snapshot_relative": "portable/platform_cli.py",
+      "source_sha256": "6edafaf29dca618c8edff83890587bc21906c7433c9c055ce3df8af862c303cb",
+      "snapshot_sha256": "6edafaf29dca618c8edff83890587bc21906c7433c9c055ce3df8af862c303cb",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/preserve_source_supplements.py",
+      "snapshot_relative": "portable/preserve_source_supplements.py",
+      "source_sha256": "07571d49846af02b4969b324dbdb1f7bd9ad6c88042d2c573f22c892d0705b64",
+      "snapshot_sha256": "892d9dc071060cee84ff3146b1b6bc339f42ff2adcfd8bb95264bd29f671a990",
+      "packaging_changes": [
+        "Remove development-only dependency search path"
+      ]
+    },
+    {
+      "source_relative": "portable/process_library.py",
+      "snapshot_relative": "portable/process_library.py",
+      "source_sha256": "1da6ca3516410f31a39c361d553e5f668cd47bb61f10b267b1ca3628bd86887e",
+      "snapshot_sha256": "1da6ca3516410f31a39c361d553e5f668cd47bb61f10b267b1ca3628bd86887e",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/propose_text_repairs.py",
+      "snapshot_relative": "portable/propose_text_repairs.py",
+      "source_sha256": "b078d62818e19f957b7e3fd45f7e80863097160a3e06740bda6cda0c21dade14",
+      "snapshot_sha256": "b078d62818e19f957b7e3fd45f7e80863097160a3e06740bda6cda0c21dade14",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/scan_pdf_library.py",
+      "snapshot_relative": "portable/scan_pdf_library.py",
+      "source_sha256": "f04a0cf5a9461d3b1d3953f97ab46ed0c3523d15aa5d407c689d1cf4ae69104a",
+      "snapshot_sha256": "e1e79ea30ef1718711391ff44c7c04dfd901a6a28be80b9a3c716f17953dcdf6",
+      "packaging_changes": [
+        "Remove development-only dependency search path"
+      ]
+    },
+    {
+      "source_relative": "portable/search_assets.py",
+      "snapshot_relative": "portable/search_assets.py",
+      "source_sha256": "ab11207d1e3ecd072b6390b879785a44f95b4e1494c81fe3c231b7a0ba5d722f",
+      "snapshot_sha256": "ab11207d1e3ecd072b6390b879785a44f95b4e1494c81fe3c231b7a0ba5d722f",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/source_crop_cache.py",
+      "snapshot_relative": "portable/source_crop_cache.py",
+      "source_sha256": "ba7f3396ecd364bb4dc6a75889bfa61ad50dd776e325666aa6a3ecd9c7e88817",
+      "snapshot_sha256": "ba7f3396ecd364bb4dc6a75889bfa61ad50dd776e325666aa6a3ecd9c7e88817",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/source_labels.py",
+      "snapshot_relative": "portable/source_labels.py",
+      "source_sha256": "9de1d5786d990d87750cb71ec84e73786a183dd6f384324300764907a9ead32d",
+      "snapshot_sha256": "9de1d5786d990d87750cb71ec84e73786a183dd6f384324300764907a9ead32d",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/test_asset_quality.py",
+      "snapshot_relative": "portable/test_asset_quality.py",
+      "source_sha256": "b0a48c29becfb5f2ece340642066870ee6b1f0053280878eb841b72ff6d15a4e",
+      "snapshot_sha256": "b0a48c29becfb5f2ece340642066870ee6b1f0053280878eb841b72ff6d15a4e",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/test_caption_boundaries.py",
+      "snapshot_relative": "portable/test_caption_boundaries.py",
+      "source_sha256": "0ae6e2284dc758fdd61e390f96102d3df49c86bb942f28ab61487281c9ca0074",
+      "snapshot_sha256": "0ae6e2284dc758fdd61e390f96102d3df49c86bb942f28ab61487281c9ca0074",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/test_caption_fragments.py",
+      "snapshot_relative": "portable/test_caption_fragments.py",
+      "source_sha256": "01f9de634a741a5ca29c661811701b49a873f24cdaae20044ca14194b1587000",
+      "snapshot_sha256": "01f9de634a741a5ca29c661811701b49a873f24cdaae20044ca14194b1587000",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/test_caption_roles.py",
+      "snapshot_relative": "portable/test_caption_roles.py",
+      "source_sha256": "3a49387a9e33b1805ae6defac9e43da7517fc2e083acb11662db4b45de5f6ff8",
+      "snapshot_sha256": "3a49387a9e33b1805ae6defac9e43da7517fc2e083acb11662db4b45de5f6ff8",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/test_continued_assets.py",
+      "snapshot_relative": "portable/test_continued_assets.py",
+      "source_sha256": "3fff3714c60fc70ced11877ef9cdd0575fda7aac9ab026fc42a91c8c0645aade",
+      "snapshot_sha256": "3fff3714c60fc70ced11877ef9cdd0575fda7aac9ab026fc42a91c8c0645aade",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/test_figure_regions.py",
+      "snapshot_relative": "portable/test_figure_regions.py",
+      "source_sha256": "f981c7ce8c733fafac5e21f4968b3295f2e2760f103d9133b97c99287c4c8240",
+      "snapshot_sha256": "f981c7ce8c733fafac5e21f4968b3295f2e2760f103d9133b97c99287c4c8240",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/test_import_parse_outputs.py",
+      "snapshot_relative": "portable/test_import_parse_outputs.py",
+      "source_sha256": "0156dcb6570c8606c861152cb312a4e828460a2a0945568d0bd9faa30fecdf5c",
+      "snapshot_sha256": "0156dcb6570c8606c861152cb312a4e828460a2a0945568d0bd9faa30fecdf5c",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/test_platform.py",
+      "snapshot_relative": "portable/test_platform.py",
+      "source_sha256": "7c8147ab5fddd3383606d9c9febd4461da725baaca7ba69f0e08a4e255569208",
+      "snapshot_sha256": "7c8147ab5fddd3383606d9c9febd4461da725baaca7ba69f0e08a4e255569208",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/test_preservation_exports.py",
+      "snapshot_relative": "portable/test_preservation_exports.py",
+      "source_sha256": "a0acffec37195f9664d217f6a794445d827ee48ed03e173158c8cac4edabe89e",
+      "snapshot_sha256": "a0acffec37195f9664d217f6a794445d827ee48ed03e173158c8cac4edabe89e",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/test_source_crop_cache.py",
+      "snapshot_relative": "portable/test_source_crop_cache.py",
+      "source_sha256": "20f5138ec126cf19fe5ce5355f4e0c0b5ac22b1bf14a3c98ed1cc46c4d5d9444",
+      "snapshot_sha256": "0b7d69d0fdea36a647dbdeab5fb900b17c42cdf4ec4851e193db3946fa57a8f1",
+      "packaging_changes": [
+        "Remove development-only dependency search path"
+      ]
+    },
+    {
+      "source_relative": "portable/test_text_repairs.py",
+      "snapshot_relative": "portable/test_text_repairs.py",
+      "source_sha256": "73f184d2408d0100602224308d5ecaf53facb83cf86b5e8329a882e54059a612",
+      "snapshot_sha256": "73f184d2408d0100602224308d5ecaf53facb83cf86b5e8329a882e54059a612",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/verify_native_assets.py",
+      "snapshot_relative": "portable/verify_native_assets.py",
+      "source_sha256": "9a5d002c7347b333373e2a5e1fbb2c79631bc4b0e1710f8083a7343dade0d465",
+      "snapshot_sha256": "9a5d002c7347b333373e2a5e1fbb2c79631bc4b0e1710f8083a7343dade0d465",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/verify_preservation.py",
+      "snapshot_relative": "portable/verify_preservation.py",
+      "source_sha256": "1c6c19f1ae4c33ca30e6ff256ec13d19abfafb905d87672455a68cdfd237f645",
+      "snapshot_sha256": "1c6c19f1ae4c33ca30e6ff256ec13d19abfafb905d87672455a68cdfd237f645",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/verify_production_collection.py",
+      "snapshot_relative": "portable/verify_production_collection.py",
+      "source_sha256": "39e46adabdbba91caca2a139317dc5abc0ab6eeebf6cd5db09758486a971f40d",
+      "snapshot_sha256": "39e46adabdbba91caca2a139317dc5abc0ab6eeebf6cd5db09758486a971f40d",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/tests/test_clean_preserved_md.py",
+      "snapshot_relative": "portable/tests/test_clean_preserved_md.py",
+      "source_sha256": "fd8de4ffc2e0d8cb5ebaea944e3738a4b27480bcae43572bc120ddd972ab181b",
+      "snapshot_sha256": "fd8de4ffc2e0d8cb5ebaea944e3738a4b27480bcae43572bc120ddd972ab181b",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "portable/requirements-native-assets.txt",
+      "snapshot_relative": "requirements.txt",
+      "source_sha256": "393e6be6bb2615c84404ca49dd14ba8fb43f2f3155c3768d8678e8c975b32c15",
+      "snapshot_sha256": "393e6be6bb2615c84404ca49dd14ba8fb43f2f3155c3768d8678e8c975b32c15",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "maintenance/20260911_merge_clean/legacy_clean_md_batch.py",
+      "snapshot_relative": "portable/legacy_clean_md_batch.py",
+      "source_sha256": "9c9adca52936cb3d8accaacb8f9fd993915c79d2d0c02bb58d49e1468450c985",
+      "snapshot_sha256": "9c9adca52936cb3d8accaacb8f9fd993915c79d2d0c02bb58d49e1468450c985",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "scripts/convert_one.py",
+      "snapshot_relative": "scripts/convert_one.py",
+      "source_sha256": "20168c79d1d9d285441bc8c218c88b872c8fe5c0cc38483a81a2d6e54e277428",
+      "snapshot_sha256": "20168c79d1d9d285441bc8c218c88b872c8fe5c0cc38483a81a2d6e54e277428",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "scripts/runtime_threads.py",
+      "snapshot_relative": "scripts/runtime_threads.py",
+      "source_sha256": "e9e2e525ef4150c3ec7946cbd646604187fa755937327f0ab2bb8f49f046161c",
+      "snapshot_sha256": "e9e2e525ef4150c3ec7946cbd646604187fa755937327f0ab2bb8f49f046161c",
+      "packaging_changes": []
+    },
+    {
+      "source_relative": "requirements.in",
+      "snapshot_relative": "requirements-parser.in",
+      "source_sha256": "9b5a07573accc3de5fbbd8bbac2fcbdc63cb2d85d209432697992b92d927cd7d",
+      "snapshot_sha256": "9b5a07573accc3de5fbbd8bbac2fcbdc63cb2d85d209432697992b92d927cd7d",
+      "packaging_changes": []
+    }
+  ],
+  "excluded_corpus_dependent_tests": [
+    "portable/test_glyph_repairs.py",
+    "portable/test_library_scan_resume.py",
+    "portable/test_native_assets.py",
+    "portable/test_page_geometry.py",
+    "portable/test_shared_glyphs.py",
+    "portable/test_source_labels.py"
+  ]
+}
