@@ -1,6 +1,6 @@
 # Source version and export record
 
-Export date: 2026-10-11. Source directory (local private provenance): `/Users/lijinkuo/Desktop/LabTrace/07_科研工具与工作流/mineru_mac_workflow`.
+Export date: 2026-10-11. Source directory: local project checkout (personal filesystem path omitted).
 
 The selected `portable/build_native_assets.py` declares `native-assets-v0.11-boundary-annotations`. The snapshot uses the current source files directly; it does not use older delivery ZIPs. No Git revision identity is asserted and no source Git history was exported.
 
