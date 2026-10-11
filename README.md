@@ -1,6 +1,6 @@
 # Scientific PDF Pipeline
 
-Private code snapshot of a source-preserving scientific-document workflow. MinerU supplies layout; postprocessing reconstructs native PDF text, preserves figure/table/equation regions, associates captions, and builds searchable outputs with source coordinates and explicit review states.
+Code snapshot of a source-preserving scientific-document workflow. MinerU supplies layout; postprocessing reconstructs native PDF text, preserves figure/table/equation regions, associates captions, and builds searchable outputs with source coordinates and explicit review states.
 
 Start with [the architecture guide for Kumar](docs/ARCHITECTURE.md). The copied postprocessor identifies itself as `native-assets-v0.11-boundary-annotations`. This is a workflow around upstream tools, not a newly trained OCR model.
 
@@ -54,4 +54,12 @@ This command was not run during packaging. It writes local output under `runs/op
 
 ## Scope and credit
 
-This snapshot contains selected project-owned workflow code, synthetic tests, a generated-example script and minimal packaging edits. No paper corpus, original Markdown, model weights, production manifests, credentials, prior Git history or runtime collection is included. [SOURCE_VERSION.md](SOURCE_VERSION.md) records the export and changes; [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) distinguishes upstream components. Individual collaborator and AI-assisted development roles should be confirmed before any public portfolio claim. No open-source license is granted by this private snapshot.
+This snapshot contains selected project-owned workflow code, synthetic tests, a generated-example script and minimal packaging edits. No paper corpus, original Markdown, model weights, production manifests, credentials, prior Git history or runtime collection is included. [SOURCE_VERSION.md](SOURCE_VERSION.md) records the export and changes; [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) distinguishes upstream components. The project-owned workflow code was developed by Cynon79 with AI assistance.
+
+## License
+
+Copyright (C) 2026 Cynon79.
+
+The project-owned code is licensed under the GNU Affero General Public License, version 3 only (`AGPL-3.0-only`); see the full [LICENSE](LICENSE). You may reuse, modify and redistribute that code under the license's terms. It is provided without warranty.
+
+This covers the project-owned workflow code in `portable/` and `scripts/`, the synthetic tests and `examples/create_synthetic_input.py`. Third-party dependencies, model weights and source publications retain their own licenses and are not relicensed by this project. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the pinned dependency context.
